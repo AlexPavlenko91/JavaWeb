@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Web.iml" filepath="$PROJECT_DIR$/Web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hw12_servlets/hw12_servlets.iml" filepath="$PROJECT_DIR$/hw12_servlets/hw12_servlets.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hw13_servletWithJSP/hw13_servletWithJSP.iml" filepath="$PROJECT_DIR$/hw13_servletWithJSP/hw13_servletWithJSP.iml" />
     </modules>
   </component>
 </project>

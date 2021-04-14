@@ -5,9 +5,18 @@
     <title>JSP - Hello World</title>
 </head>
 <body>
-<h1><%= "Hello World!" %>
-</h1>
+<h3><%= "Home work - Java Web - Pavlenko Oleksii" %>
+</h3>
 <br/>
-<a href="hello-servlet">Hello Servlet</a>
+<ul>
+    <a style="font-size: large" href="hw12map-servlet">Hw12</a>
+</ul>
+<ul>
+    <a style="font-size: large" href="hw13map-servlet">Hw13</a>
+</ul>
+
+
+
+<%--<a href="linus-servlet">Linus Servlet</a>--%>
 </body>
 </html>

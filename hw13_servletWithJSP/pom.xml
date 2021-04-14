@@ -10,8 +10,9 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>hw12_servlets</artifactId>
+    <artifactId>hw13_servletWithJSP</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-    
+
+
 </project>

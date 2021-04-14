@@ -6,10 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Web" />
+        <module name="hw13_servletWithJSP" />
+        <module name="hw12_servlets" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="hw12_servlets" target="1.8" />
+      <module name="hw13_servletWithJSP" target="1.8" />
       <module name="Web" target="1.8" />
     </bytecodeTargetLevel>
   </component>

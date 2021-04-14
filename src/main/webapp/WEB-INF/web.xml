@@ -3,4 +3,57 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
+    <servlet>
+        <servlet-name>linusServlet</servlet-name>
+        <servlet-class>Task1_Linus_Citation.LinusServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>linusServlet</servlet-name>
+        <url-pattern>/linus-servlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>hw12map</servlet-name>
+        <servlet-class>com.example.Web.hw12map</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>hw12map</servlet-name>
+        <url-pattern>/hw12map-servlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>max3Servlet</servlet-name>
+        <servlet-class>Task2Task3_mathFrom3.MathFrom3_Servlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>max3Servlet</servlet-name>
+        <url-pattern>/max3-servlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>calculatorServlet</servlet-name>
+        <servlet-class>Task5_Calculator.Calculator_Servlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>calculatorServlet</servlet-name>
+        <url-pattern>/calculator-servlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>textStatServlet</servlet-name>
+        <servlet-class>Task4_TextStatistic.TextStatistic_Servlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>textStatServlet</servlet-name>
+        <url-pattern>/textStat-servlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>guessNum_Servlet</servlet-name>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>guessNum_Servlet</servlet-name>
+        <url-pattern>/guess_num/servlet</url-pattern>
+    </servlet-mapping>
+
 </web-app>
