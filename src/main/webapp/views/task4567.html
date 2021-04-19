@@ -4,13 +4,34 @@
 </head>
 <body>
 <form method="post" action="/checkboxes">
-    <input type="text" name="name" placeholder="name" required>
-    <input type="email" name="email" placeholder="email" required>
-    <input type="text" name="phone" placeholder="phone" required>
-    <input type="number" name="age" placeholder="age" required>
+    <label>
+        Enter your name:
+        <input type="text" name="name" placeholder="name" required>
+    </label>
+    <br/>
+    <label>
+        Enter email:
+        <input type="email" name="email" placeholder="email" required>
+    </label>
+    <br/>
+    <label>
+        Enter phone:
+        <input type="text" name="phone" placeholder="phone" required>
+    </label>
+    <br/>
+    <label>
+        Enter age:
+        <input type="number" name="age" placeholder="age" required>
+    </label>
     <br/>    <br/>
     <label for="subscribe">Do you want to subscribe to our newsletter?</label>
     <input type="checkbox" name="subscribe" id="subscribe">
+    <br/>    <br/>
+    <label for="male">male</label><input type="radio" name="gender" id="male" value="male" checked>
+    <br/>
+    <label for="female">female</label><input type="radio" name="gender" id="female" value="female">
+    <br/>
+    <label for="other">other</label><input type="radio" name="gender" id="other" value="other">
     <br/>    <br/>
     <input type="submit" value="Submit">
 </form>

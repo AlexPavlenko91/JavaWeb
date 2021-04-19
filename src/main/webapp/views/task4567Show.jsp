@@ -14,25 +14,23 @@
 <h2>show 4567</h2>
 <pre>
 <%
-    String userName = (String) request.getAttribute("userName");
-    out.println(userName);
-//    out.println(request.getParameter("userEmail"));
-//    out.println(request.getParameter("userPhone"));
-//    out.println(request.getParameter("userAge"));
-//    if (request.getParameter("userSubscribe") != null) {
-//        out.println("You've subscribed on our mailing");
-//    }
-    /*out.println(request.getParameter("name"));
-    out.println(request.getParameter("email"));
-    out.println(request.getParameter("phone"));
-    out.println(request.getParameter("age"));
-    if (request.getParameter("subscribe") != null) {
+
+    out.println("Name - " + request.getAttribute("userName"));
+    out.println("Email - " + request.getAttribute("userEmail"));
+    out.println("Phone - " + request.getAttribute("userPhone"));
+    out.println("Age - " + request.getAttribute("userAge"));
+    String gender = (String) request.getAttribute("userGender");
+    if (gender != null) {
+        out.println("Gender - " + request.getAttribute("userGender"));
+    }
+    if (request.getAttribute("subscribe") != null) {
         out.println("You've subscribed on our mailing");
-    }*/
+    }
+
 %>
-    <%=
+    <%--<%=
     request.getParameter("userName")
-    %>
+    %>--%>
 
    <%-- <div>${userName}</div>
     <div>${userEmail}</div>--%>

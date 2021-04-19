@@ -20,15 +20,14 @@ public class checkboxes_Servlet extends HttpServlet {
             String userPhone = req.getParameter("phone");
             String userAge = req.getParameter("age");
             String userSubscribe = req.getParameter("subscribe");
-
-            System.out.println("userName = " + userName);
-            System.out.println("userEmail = " + userEmail);
+            String userGender = req.getParameter("gender");
 
             req.setAttribute("userName", userName);
             req.setAttribute("userEmail", userEmail);
             req.setAttribute("userPhone", userPhone);
             req.setAttribute("userAge", userAge);
             req.setAttribute("userSubscribe", userSubscribe);
+            req.setAttribute("userGender", userGender);
 
             RequestDispatcher requestDispatcher = req.getRequestDispatcher("views/task4567Show.jsp");
             requestDispatcher.forward(req, resp);//метод для перехода на нашу страницу
