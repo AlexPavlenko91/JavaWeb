@@ -1,4 +1,4 @@
-package com.example.Web;
+package com;
 
 import java.io.*;
 import javax.servlet.RequestDispatcher;
@@ -8,7 +8,6 @@ import javax.servlet.annotation.*;
 
 @WebServlet(name = "hw12map", value = "/hw12map-servlet")
 public class hw12map extends HttpServlet {
-    private String message;
 
     public void init() {
 

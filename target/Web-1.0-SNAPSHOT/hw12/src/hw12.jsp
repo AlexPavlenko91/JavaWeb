@@ -9,7 +9,9 @@
 </h3>
 <br/>
 <a href="linus-servlet">Linus Torvalds citation(Task 1)</a>
+<br/>
 <div style="display-inside: ruby-base-container">
+    <br/>
     <form action="${pageContext.request.contextPath}/max3-servlet" method="post" name="calculate">
         <input type="text" id="first" name="first" placeholder="first number" required>
         <input type="text" id="second" name="second" placeholder="second number" required>

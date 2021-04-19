@@ -14,7 +14,7 @@
 
     <servlet>
         <servlet-name>hw12map</servlet-name>
-        <servlet-class>com.example.Web.hw12map</servlet-class>
+        <servlet-class>com.hw12map</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>hw12map</servlet-name>
@@ -49,11 +49,39 @@
     </servlet-mapping>
 
     <servlet>
+        <servlet-name>hw13map</servlet-name>
+        <servlet-class>com.hw13map</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>hw13map</servlet-name>
+        <url-pattern>/hw13map-servlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
         <servlet-name>guessNum_Servlet</servlet-name>
+        <servlet-class>hw13_jsp.Task3_guessNumber.guessNum_Servlet</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>guessNum_Servlet</servlet-name>
-        <url-pattern>/guess_num/servlet</url-pattern>
+        <url-pattern>/guess_num-servlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>multiplicationTable_servlet</servlet-name>
+        <servlet-class>hw13_jsp.Task2_multiplicationTable.multiplicationTable_servlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>multiplicationTable_servlet</servlet-name>
+        <url-pattern>/multiplicationTable</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>checkboxes_Servlet</servlet-name>
+        <servlet-class>hw13_jsp.Task4567.checkboxes_Servlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>checkboxes_Servlet</servlet-name>
+        <url-pattern>/checkboxes</url-pattern>
     </servlet-mapping>
 
 </web-app>

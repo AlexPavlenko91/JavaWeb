@@ -11,7 +11,6 @@ import java.io.PrintWriter;
 
 @WebServlet(name = "calculatorServlet", value = "/calculator-servlet")
 public class Calculator_Servlet extends HttpServlet {
-    // private final Character[] signs = new Character[]{'+', '-', '*', '/', '%', '^'};
 
     public double getRes(double a, double b, char c) {
         switch (c) {
@@ -27,9 +26,8 @@ public class Calculator_Servlet extends HttpServlet {
                 return (a / 100) * b;
             case '^':
                 return Math.pow(a, b);
+            default: break;
         }
-        double res = 0;
-
         return 0;
     }
 
